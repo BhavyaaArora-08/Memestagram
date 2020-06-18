@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+.l-container {
+  margin: 60px auto;
+  margin-bottom: 30px;
+}
+
+.phone-image {
+  width: 500px;
+  position: relative;
+  top: -30px;
+  right: -70px;
+  margin-left: 140px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1026px) {
+  .hide-m-s {
+    display: none;
+  }
+  .login-container {
+    text-align: center;
+    width: 310px;
+    margin: 80px auto;
+  }
+  .l-container {
+    margin-top: 0px;
+  }
+}
+
+.login-container {
+  text-align: center;
+  width: 310px;
+  height: 400px;
+}
+
+.login-sub-container {
+  margin-bottom: 20px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.login-sub-container {
+  font-size: $s-size;
+}
+
+#heading {
+  font-size: $lm-size;
+  font-family: "Lobster Two", cursive;
+  margin: 0px auto 30px auto;
+  width: 90%;
+}
+
+.login-input {
+  font-size: $s-size;
+  font-style: bold;
+  margin: 5px auto;
+  padding: 8px 6px;
+  width: 250px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background-color: #5fd0e40a;
+  outline: none;
+}
+
+.login-input:focus {
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+}
+
+.login-button {
+  font-size: $m-size;
+  margin: 5px auto;
+  width: 250px;
+}
+
+hr {
+  margin: 20px auto 10px auto;
+  width: 80%;
+}
+
+.login-link {
+  font-size: $s-size;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.forgot-link {
+  margin: 50px auto;
+}
