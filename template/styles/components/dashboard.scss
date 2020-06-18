@@ -1,0 +1,115 @@
+.posts {
+  margin: 20px;
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+  margin: 10px auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+.post-header {
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  div {
+    margin: 0;
+    padding: 0;
+  }
+  .author {
+    position: relative;
+    left: -20px;
+    .name {
+      font-size: $m-size;
+      font-weight: 500;
+    }
+  }
+  img {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .dots {
+    position: absolute;
+    right: 8px;
+  }
+}
+
+.post-image img {
+  width: 500px;
+  height: 530px;
+}
+
+.post-extras {
+  font-size: 2.4rem;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+
+  .likes i {
+    margin: 5px 3px;
+  }
+}
+
+.likes {
+  position: relative;
+  height: 35px;
+}
+
+.lefti1 {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+
+.lefti2 {
+  position: absolute;
+  top: 5px;
+  left: 38px;
+}
+
+.lefti3 {
+  position: absolute;
+  top: 5px;
+  left: 68px;
+}
+
+.lasti {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+}
+
+.caption {
+  text-align: left;
+  padding: 10px 15px;
+  line-height: $s-size;
+  .name {
+    font-size: $s-size;
+    font-weight: 500;
+  }
+
+  .text {
+    font-size: $s-size;
+    font-weight: 400;
+  }
+}
+
+.comments {
+  text-align: left;
+  padding: 0px 15px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+
+  a {
+    color: gray;
+    font-size: $s-size;
+  }
+
+  .caption {
+    padding: 0;
+    padding-bottom: 4px;
+  }
+}
