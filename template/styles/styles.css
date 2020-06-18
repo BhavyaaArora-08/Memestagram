@@ -97,12 +97,78 @@ hr {
   margin: 50px auto;
 }
 
+.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 15px auto 10px auto;
+  height: 50px;
+  text-align: left;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-left: 0;
+  border-right: 0;
+  z-index: 1;
+}
+.header .row {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.header #heading {
+  font-size: 2.2rem;
+  padding: 5px;
+}
+.header .icons {
+  text-align: right;
+}
+.header .icons i {
+  font-size: 2.2rem;
+  position: unset;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
+.header input {
+  box-sizing: border-box;
+  margin: 10px auto;
+  font-size: 1.4rem;
+  position: relative;
+  left: -20px;
+  width: 150px;
+  background-color: #5fd0e40a;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  padding-top: 50px;
+}
+
+.stories .row {
+  width: 530px;
+  margin: 20px auto 10px auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+.stories .row .story-img img {
+  border-radius: 50px;
+  width: 55px;
+  height: 55px;
+  margin: 3px 6px;
+}
+.stories .row .story-img-seen img {
+  border-radius: 50px;
+  width: 57px;
+  height: 57px;
+  margin: 3px;
+  padding: 1px;
+  border: 2px solid #51e617;
+}
+
 .posts {
   margin: 20px;
 }
 
 .container {
-  width: 500px;
+  width: 530px;
   text-align: center;
   margin: 10px auto;
   border: 0.5px solid rgba(0, 0, 0, 0.2);
@@ -138,7 +204,7 @@ hr {
 }
 
 .post-image img {
-  width: 500px;
+  width: 530px;
   height: 530px;
 }
 
